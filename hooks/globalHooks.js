@@ -5,11 +5,11 @@ import {PageManager} from "../globalPagesSetup.js";
 const BROWSER_TYPE = "chrome"; // Default browser type
 const WIDTH = 1920; // Default screen width
 const HEIGHT = 1080; // Default screen height
-const DEFAULT_TIMEOUT = 30000; // default timeout in milliseconds
+const DEFAULT_TIMEOUT = 40000; // default timeout in milliseconds
 
 const browserSetup = {
-  headless: false,
-  slowMo: 4000,
+  headless: true,
+  //slowMo: 4000,
 };
 
 /**
